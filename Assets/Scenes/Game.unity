@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 353189162}
   - component: {fileID: 353189161}
   - component: {fileID: 353189160}
+  - component: {fileID: 353189164}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: Untagged
@@ -358,6 +359,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &353189164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353189159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebfac6488d359a438290b4e6b01ed8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,10 +541,11 @@ GameObject:
   - component: {fileID: 1824879849}
   - component: {fileID: 1824879848}
   - component: {fileID: 1824879847}
-  - component: {fileID: 1824879852}
-  - component: {fileID: 1824879851}
   - component: {fileID: 1824879850}
   - component: {fileID: 1824879853}
+  - component: {fileID: 1824879852}
+  - component: {fileID: 1824879851}
+  - component: {fileID: 1824879854}
   m_Layer: 0
   m_Name: Playr
   m_TagString: Untagged
@@ -682,7 +696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a03d6c7d8f33054bbb7cd7d9218b2e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceUp: 1
+  forceUp: 4
   speedFly: 100
 --- !u!58 &1824879853
 CircleCollider2D:
@@ -720,6 +734,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.59375
+--- !u!114 &1824879854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824879846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d481616184d6c0b46b446a4dc573a45e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2090158824
 GameObject:
   m_ObjectHideFlags: 0

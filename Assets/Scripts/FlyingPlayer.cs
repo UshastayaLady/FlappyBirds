@@ -1,9 +1,9 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(AnimatorPlayer))]
+[RequireComponent(typeof(ButtonsPlayer))]
 public class FlyingPlayer : MonoBehaviour
 {
     [SerializeField] private float forceUp;
@@ -22,18 +22,19 @@ public class FlyingPlayer : MonoBehaviour
     }
 
     void FixedUpdate()
-    {
+    {        
         FlewPlayer();
     }
 
     private void FlewUpPlayer()
     {
-        rigbody.AddForce(Vector2.up * forceUp * Time.fixedDeltaTime, ForceMode2D.Impulse);
+        rigbody.AddForce(Vector2.up * forceUp, ForceMode2D.Impulse);
+        
     }
 
     private void FlewPlayer()
     {
-        rigbody.linearVelocity = new Vector2(transform.position.x + speedFly * Time.fixedDeltaTime, transform.position.y);
+        rigbody.linearVelocityX = speedFly * Time.fixedDeltaTime;
     }
 
     private void OnDisable()
