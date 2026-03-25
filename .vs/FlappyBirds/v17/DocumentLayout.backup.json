@@ -3,7 +3,18 @@
   "WorkspaceRootPath": "F:\\Top\\FlappyBirds\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|f:\\top\\flappybirds\\assets\\scripts\\gamestarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|f:\\top\\flappybirds\\assets\\scripts\\flyingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flyingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Top\\2D Project\\Assets\\Data\\SannyLand\\Scripts\\RigidbodyMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|F:\\Top\\FlappyBirds\\assets\\scripts\\buttonsplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonsplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|F:\\Top\\FlappyBirds\\assets\\scripts\\gamestarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamestarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +25,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RigidbodyMove.cs",
+              "DocumentMoniker": "F:\\Top\\2D Project\\Assets\\Data\\SannyLand\\Scripts\\RigidbodyMove.cs",
+              "RelativeDocumentMoniker": "..\\2D Project\\Assets\\Data\\SannyLand\\Scripts\\RigidbodyMove.cs",
+              "ToolTip": "F:\\Top\\2D Project\\Assets\\Data\\SannyLand\\Scripts\\RigidbodyMove.cs",
+              "RelativeToolTip": "..\\2D Project\\Assets\\Data\\SannyLand\\Scripts\\RigidbodyMove.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:35:39.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FlyingPlayer.cs",
+              "DocumentMoniker": "F:\\Top\\FlappyBirds\\Assets\\Scripts\\FlyingPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FlyingPlayer.cs",
+              "ToolTip": "F:\\Top\\FlappyBirds\\Assets\\Scripts\\FlyingPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FlyingPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T16:59:28.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonsPlayer.cs",
+              "DocumentMoniker": "F:\\Top\\FlappyBirds\\Assets\\Scripts\\ButtonsPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonsPlayer.cs",
+              "ToolTip": "F:\\Top\\FlappyBirds\\Assets\\Scripts\\ButtonsPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonsPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T16:47:28.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GameStarted.cs",
               "DocumentMoniker": "F:\\Top\\FlappyBirds\\Assets\\Scripts\\GameStarted.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameStarted.cs",
               "ToolTip": "F:\\Top\\FlappyBirds\\Assets\\Scripts\\GameStarted.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameStarted.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:06:01.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T16:06:01.902Z"
             }
           ]
         }
