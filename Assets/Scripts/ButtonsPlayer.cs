@@ -4,7 +4,7 @@ using UnityEngine;
 public class ButtonsPlayer : MonoBehaviour
 {
 
-    private KeyCode flyUpButton = KeyCode.Space;
+    private KeyCode _flyUpButton = KeyCode.Space;
 
     public static event Action clickedFlyUp;
 
@@ -16,7 +16,7 @@ public class ButtonsPlayer : MonoBehaviour
       
     private void ClickedFlyUp()
     {
-        if (Input.GetKeyDown(flyUpButton))
+        if (Input.GetKeyDown(_flyUpButton))
         {
             clickedFlyUp?.Invoke();
         }

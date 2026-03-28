@@ -4,12 +4,12 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class AnimatorPlayer : MonoBehaviour
 {
-    private Animator animator;
+    private Animator _animator;
     private const string InputFlyingUp = nameof(InputFlyingUp);
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+        _animator = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -24,11 +24,11 @@ public class AnimatorPlayer : MonoBehaviour
 
     private IEnumerator StartUpFlyAnimation()
     {
-        animator.SetBool(InputFlyingUp, true);
+        _animator.SetBool(InputFlyingUp, true);
         yield return new WaitForSeconds(1f);
-        animator.SetBool(InputFlyingUp, false);
+        _animator.SetBool(InputFlyingUp, false);
     }
-
+   
     private void OnDisable()
     {
         ButtonsPlayer.clickedFlyUp -= FlewUpPlayer;

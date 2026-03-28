@@ -4,30 +4,30 @@ using UnityEngine.UI;
 
 public class GameStarted : MonoBehaviour
 {
-    private Button start;
-    private int idScene;
+    private Button _start;
+    private int _idScene;
 
     private void Awake()
     {
-        start = GetComponent<Button>();
+        _start = GetComponent<Button>();
     }
     private void OnEnable()
     {
-        start.onClick.AddListener(LoadScene);
+        _start.onClick.AddListener(LoadScene);
     }
 
     private void LoadScene()
     {
-        SceneManager.LoadScene(idScene);
+        SceneManager.LoadScene(_idScene);
     }
 
     public void SetIdScene(int id)
     {
-        idScene = id;
+        _idScene = id;
     }
 
     private void OnDisable()
     {
-        start.onClick.RemoveListener(LoadScene);
+        _start.onClick.RemoveListener(LoadScene);
     }
 }

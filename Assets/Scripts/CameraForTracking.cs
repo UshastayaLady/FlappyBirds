@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class CameraForTracking : MonoBehaviour
 {
-    private FlyingPlayer player;
-    private float offset = 2;
+    private FlyingPlayer _player;
+    private float _offset = 2;
 
     private void Awake()
     {
-        player = FindAnyObjectByType<FlyingPlayer>();
+        _player = FindAnyObjectByType<FlyingPlayer>();
     }
 
     private void Start()
     {
-        transform.position = new Vector3(player.transform.position.x + offset, player.transform.position.y, transform.position.z);
+        transform.position = new Vector3(_player.transform.position.x + _offset, _player.transform.position.y, transform.position.z);
     }
 
     void Update()
@@ -22,6 +22,6 @@ public class CameraForTracking : MonoBehaviour
 
     private void TrackingPlayer()
     {
-        transform.position = new Vector3(player.transform.position.x + offset, transform.position.y, transform.position.z);
+        transform.position = new Vector3(_player.transform.position.x + _offset, transform.position.y, transform.position.z);
     }
 }
