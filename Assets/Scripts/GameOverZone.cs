@@ -11,6 +11,7 @@ public class GameOverPlayer : MonoBehaviour
         if (other.gameObject.GetComponent<FlyingPlayer>())
         {
             gameOver?.Invoke();
+            this.gameObject.SetActive(false);
         }
     }
 }

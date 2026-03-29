@@ -1,9 +1,8 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIGameOver : MonoBehaviour
 {
-    [SerializeField] private Image _uiGameOver;
+    [SerializeField] private GameObject _uiGameOver;
    
     private void OnEnable()
     {
@@ -12,7 +11,7 @@ public class UIGameOver : MonoBehaviour
 
     private void GameOver()
     {
-        _uiGameOver.enabled = true;
+        _uiGameOver.SetActive(true);        
     }
 
     private void OnDisable()
