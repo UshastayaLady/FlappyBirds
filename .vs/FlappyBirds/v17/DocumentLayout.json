@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\flappybirds\\assets\\scripts\\restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\desktop\\top\\flappybirds\\assets\\scripts\\backgroundchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\assets\\scripts\\flyingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flyingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\assets\\scripts\\uigameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameoverzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\assets\\scripts\\flyingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flyingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\assets\\scripts\\fortrackingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fortrackingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\assets\\scripts\\restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\assets\\scripts\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\assets\\scripts\\buttonsplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonsplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\assets\\scripts\\camerafortracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00463721-2BEE-65BD-D873-9DDA2F940470}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafortracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,6 +51,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BackgroundChange.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\BackgroundChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundChange.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\BackgroundChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackgroundChange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T02:07:13.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForTrackingPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\ForTrackingPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ForTrackingPlayer.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\ForTrackingPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ForTrackingPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T00:54:51.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Restart.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\Restart.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Restart.cs",
@@ -54,25 +83,23 @@
               "RelativeToolTip": "Assets\\Scripts\\Restart.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T00:32:21.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T00:32:21.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameOverZone.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\GameOverZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverZone.cs",
               "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\GameOverZone.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameOverZone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T22:34:28.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T22:34:28.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UIGameOver.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\UIGameOver.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIGameOver.cs",
@@ -80,24 +107,23 @@
               "RelativeToolTip": "Assets\\Scripts\\UIGameOver.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T22:22:48.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T22:22:48.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FlyingPlayer.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\FlyingPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FlyingPlayer.cs",
               "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\FlyingPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\FlyingPlayer.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwA4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T16:59:28.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AnimatorPlayer.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\AnimatorPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimatorPlayer.cs",
@@ -109,19 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CameraForTracking.cs",
-              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\CameraForTracking.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraForTracking.cs",
-              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\CameraForTracking.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraForTracking.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T20:53:20.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ButtonsPlayer.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\ButtonsPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonsPlayer.cs",
@@ -133,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GameStarted.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\Desktop\\Top\\FlappyBirds\\Assets\\Scripts\\GameStarted.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameStarted.cs",
