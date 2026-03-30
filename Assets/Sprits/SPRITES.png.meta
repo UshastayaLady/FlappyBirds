@@ -343,9 +343,9 @@ TextureImporter:
       name: SPRITES_3
       rect:
         serializedVersion: 2
-        x: 331
+        x: 330
         y: 135
-        width: 24
+        width: 26
         height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
