@@ -1,29 +1,41 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
 public class BackgroundChange : MonoBehaviour
 {
 
     [SerializeField] private SpriteRenderer _background1;
     [SerializeField] private SpriteRenderer _background2;
-    [SerializeField] private Transform _endMoveBackground;
-    [SerializeField] private Transform _startMoveBackground;
-
+    [SerializeField] private Transform _endPosition;
+    [SerializeField] private Transform _startPosition;
 
     void Update()
     {
-        ChangeBackground();
+        CycleBackgrounds();
+    }       
+
+    private void CycleBackgrounds()
+    {
+        // Проверяем и циклически перемещаем каждый фон
+        TryCycleBackground(_background1);
+        TryCycleBackground(_background2);
     }
 
-    private void ChangeBackground()
+    private void TryCycleBackground(SpriteRenderer background)
     {
-        if (_background1.transform.position.x <= _endMoveBackground.position.x)
-        {
-            _background1.transform.position = new Vector2(_startMoveBackground.position.x, transform.position.y);
+        if (background == null) return;
+
+        // Если фон достиг или прошел конечную позицию по X
+        if (background.transform.position.x <= _endPosition.position.x)
+        {            
+            Vector2 newPosition = new Vector2(_startPosition.position.x, background.transform.position.y);
+            background.transform.position = newPosition;
+
+            // Меняем позицию колонны
+            OnBackgroundChanged(background);
         }
-        else if (_background2.transform.position.x <= _endMoveBackground.position.x)
-        {
-            _background2.transform.position = new Vector2(_startMoveBackground.position.x, transform.position.y);
-        }
+    }
+
+    private void OnBackgroundChanged(SpriteRenderer background)
+    {
+        background.GetComponentInChildren<RandСolumns>().NewTransformColumns();
     }
 }

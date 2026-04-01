@@ -481,7 +481,7 @@ GameObject:
   - component: {fileID: 1235011464}
   - component: {fileID: 1235011463}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: Button Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8647795323666085189, guid: 24a9dd7888cde604ebc872af182d75bb, type: 3}
+  m_Sprite: {fileID: -56758590922637776, guid: 24a9dd7888cde604ebc872af182d75bb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

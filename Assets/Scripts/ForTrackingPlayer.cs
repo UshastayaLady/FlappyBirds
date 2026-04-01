@@ -9,7 +9,15 @@ public class ForTrackingPlayer : MonoBehaviour
     {
         _player = FindAnyObjectByType<FlyingPlayer>();
     }
+    private void OnEnable()
+    {
+        GameOverPlayer.gameOver += GameOver;
+    }
 
+    private void GameOver()
+    {
+        enabled = false;
+    }
 
     void Update()
     {
@@ -19,5 +27,10 @@ public class ForTrackingPlayer : MonoBehaviour
     private void TrackingPlayer()
     {
         transform.position = new Vector3(_player.transform.position.x + _offset, transform.position.y, transform.position.z);
+    }   
+
+    private void OnDisable()
+    {
+        GameOverPlayer.gameOver -= GameOver;
     }
 }
